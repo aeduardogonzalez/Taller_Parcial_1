@@ -9,7 +9,7 @@ namespace Entity
     public class Liquidacion
     {
 
-        public int NumeroLiquidacion { get; set; }
+        public int Numero_Liquidacion { get; set; }
         public string IdentificacionPaciente { get; set; }
         public string NombrePaciente { get; set; }
         public int TipoAfiliacion { get; set; }
@@ -23,7 +23,7 @@ namespace Entity
 
         public Liquidacion(int numeroLiquidacion, string identificacionPaciente, string nombrePaciente, int tipoAfiliacion, int salarioPaciente, int valorServicio)
         {
-            NumeroLiquidacion = numeroLiquidacion;
+            Numero_Liquidacion = numeroLiquidacion;
             IdentificacionPaciente = identificacionPaciente;
             NombrePaciente = nombrePaciente;
             TipoAfiliacion = tipoAfiliacion;
