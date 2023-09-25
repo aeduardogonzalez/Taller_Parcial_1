@@ -9,8 +9,8 @@ using System.IO;
 
 namespace BLL
 {
-    //public class LiquidacionService
-    //{
+    public class LiquidacionService
+    {
     //    private LiquidacionRepository liquidacionRepository = null;
     //    private List<Liquidacion> liquidacionList = null;
 
@@ -35,27 +35,31 @@ namespace BLL
     //        return liquidacionList;
     //    }
 
-    //    //public string EliminarRegistro(string idAEliminar)
-    //    //{
-    //    //    try
-    //    //    {
-    //    //        var productoAEliminar = productoList.FirstOrDefault(p => p.IdPaciente == idAEliminar);
+    //    public string EliminarRegistro(string Eliminar_ID)
+    //    {
+    //        try
+    //        {
+    //            var eliminarRegistro = liquidacionList.FirstOrDefault(p => p.IDPaciente == Eliminar_ID);
 
-    //    //        if (productoAEliminar != null)
-    //    //        {
-    //    //            productoList.Remove(productoAEliminar);
-    //    //            productoRepository.Guardar(productoList);
-    //    //            return "Registro eliminado con éxito.";
-    //    //        }
-    //    //        else
-    //    //        {
-    //    //            return "No se encontró un registro con el ID proporcionado.";
-    //    //        }
-    //    //    }
-    //    //    catch (IOException)
-    //    //    {
-    //    //        return "Ocurrió un error al intentar eliminar el registro.";
-    //    //    }
-    //    //}
+    //            if (eliminarRegistro != null)
+    //            {
+    //                liquidacionList.Remove(eliminarRegistro);
+    //                var liquidacion = new DAL.LiquidacionRepository();
+    //                var LiquidacionList = liquidacion.Guardar(liquidacionList);
+    //                return "Registro de paciente eliminado correctamente";
+    //            }
+    //            else
+    //            {
+    //                return "No se encontró un registro con el ID proporcionado.";
+    //            }
+    //        }
+    //        catch (IOException)
+    //        {
+    //            return "Ocurrió un error al intentar eliminar el registro.";
+    //        }
+
+
+    //    }
+
     //}
 }

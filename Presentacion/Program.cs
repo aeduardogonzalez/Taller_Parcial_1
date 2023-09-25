@@ -21,11 +21,11 @@ namespace Presentacion
     //        LiquidacionService liquidadoService = new BLL.LiquidacionService();
     //        menuPrincipal();
 
-            
+
     //    }
 
 
-    //     static void menuPrincipal()
+    //    static void menuPrincipal()
     //    {
     //        int OP;
     //        char Opcion = 'S';
@@ -81,14 +81,14 @@ namespace Presentacion
     //            try
     //            {
     //                titulos();
-                    
+
     //                Console.SetCursorPosition(35, 11); Console.WriteLine("ID de liquidacion        : ");
     //                Console.SetCursorPosition(35, 12); Console.WriteLine("ID del paciente          : ");
     //                Console.SetCursorPosition(35, 13); Console.WriteLine("Nombre del Paciente      : ");
     //                Console.SetCursorPosition(35, 14); Console.WriteLine("Tipo de afiliación       : ");
     //                Console.SetCursorPosition(35, 15); Console.WriteLine("Salario Del Paciente     : ");
     //                Console.SetCursorPosition(35, 16); Console.WriteLine("Valor del servicio       : ");
-                    
+
     //                Liquidacion liquidado = new Liquidacion();
 
     //                Console.SetCursorPosition(62, 11); liquidado.IDLiquidacion = int.Parse(Console.ReadLine());
@@ -105,7 +105,7 @@ namespace Presentacion
     //                {
     //                    Console.SetCursorPosition(62, 15); liquidado.SalarioPaciente = double.Parse(Console.ReadLine());
     //                } while (liquidado.SalarioPaciente < 0);
-                    
+
     //                do
     //                {
     //                    Console.SetCursorPosition(62, 16); liquidado.ValorServicio = Convert.ToDouble(Console.ReadLine());
@@ -121,7 +121,7 @@ namespace Presentacion
     //                    Console.SetCursorPosition(68, 20); OP = Convert.ToChar(Console.ReadLine());
     //                    OP = char.ToUpper(OP);
     //                    Console.Clear();
-    //                } while ((OP != 'S') && (OP != 'N')) ;
+    //                } while ((OP != 'S') && (OP != 'N'));
     //            }
     //            catch (IOException)
     //            {
@@ -135,10 +135,10 @@ namespace Presentacion
     //        titulos();
     //        try
     //        {
-                
+
     //            Console.SetCursorPosition(20, 15); Console.WriteLine("ID LIQUIDACION  ID PACIENTE        NOMBRE PACIENTE               TIPO AFILIACION     SALARIO PACIENTE   VALOR SERVICIO    CUOTA MODERADORA ");
 
-                
+
     //            var service = new BLL.LiquidacionService();
     //            var liquidacionList = service.ConsultarTodos();
     //            if (liquidacionList == null)
@@ -167,10 +167,26 @@ namespace Presentacion
     //        }
     //    }
 
+    //    private void EliminarRegistro()
+    //    {
+    //        Console.Clear();
+    //        titulos();
+    //        Console.SetCursorPosition(35, 11); Console.Write("Ingrese el ID del Paciente que desea eliminar: ");
+    //        Console.SetCursorPosition(89, 11); string idAEliminar = Console.ReadLine();
+
+    //        string mensaje = Service.EliminarRegistro(idAEliminar);
+    //        var service = new BLL.LiquidacionService();
+    //        var liquidacionList = service.();
+
+    //        Console.SetCursorPosition(35, 13); Console.WriteLine(mensaje);
+    //        Console.SetCursorPosition(30, 15); Console.WriteLine("Presione Enter para continuar.");
+    //        Console.SetCursorPosition(50, 15); Console.ReadLine();
+    //    }
+
     //    static void titulos()
     //    {
     //        Console.SetCursorPosition(40, 6); Console.WriteLine("IPS MAS SALUD Y VIDA");
     //        Console.SetCursorPosition(35, 7); Console.WriteLine("Andres Gonzalez y Juan Carmona");
     //    }
-    //}
+    }
 }
