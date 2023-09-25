@@ -18,7 +18,13 @@ namespace Presentacion
             Console.WindowWidth = Console.LargestWindowWidth;
             Console.BufferHeight = Console.LargestWindowHeight;
             Console.BufferWidth = Console.LargestWindowWidth;
-            LiquidacionService liquidadoService = new BLL.LiquidacionService();
+            
+            Program programa = new Program();
+            programa.menuPrincipal();
+        }
+
+        public void menuPrincipal()
+        {
             int OP;
             char Opcion = 'S';
 
@@ -64,54 +70,6 @@ namespace Presentacion
                 }
             }
         }
-
-        //public void menuPrincipal()
-        //{
-        //    int OP;
-        //    char Opcion = 'S';
-            
-        //    Console.SetCursorPosition(40, 6); Console.WriteLine("IPS MAS SALUD Y VIDA");
-        //    Console.SetCursorPosition(35, 7); Console.WriteLine("Andres Gonzalez y Juan Carmona");
-        //    Console.SetCursorPosition(48, 10); Console.WriteLine("MENU");
-        //    Console.SetCursorPosition(26, 12); Console.WriteLine("1. Registrar Paciente");
-        //    Console.SetCursorPosition(26, 13); Console.WriteLine("2. Consultar Paciente");
-        //    Console.SetCursorPosition(26, 14); Console.WriteLine("3. Eliminar Paciente");
-        //    Console.SetCursorPosition(26, 15); Console.WriteLine("4. Salir");
-        //    do
-        //    {
-        //        Console.SetCursorPosition(26, 18); Console.WriteLine("Escoja una opcion: ");
-        //        Console.SetCursorPosition(50, 18); OP = int.Parse(Console.ReadLine());
-        //        Console.SetCursorPosition(50, 18); Console.WriteLine("         ");
-        //        Console.SetCursorPosition(26, 22); Console.WriteLine("Por favor elija una opción válida");
-        //    } while ((OP < 1) || (OP > 4));
-        //    Console.SetCursorPosition(26, 18); Console.WriteLine("                                     ");
-        //    Console.SetCursorPosition(26, 21); Console.WriteLine("                                     ");
-
-        //    while (Opcion == 'S')
-        //    {
-        //        switch (OP)
-        //        {
-        //            case 1:
-        //                Console.Clear();
-        //                registrar();
-        //                Console.Clear();
-        //                break;
-        //            case 2:
-        //                Console.Clear();
-        //                MostrarRegistro();
-        //                Console.Clear();
-        //                break;
-        //            case 3:
-        //                Console.Clear();
-        //                EliminarRegistro();
-        //                Console.Clear();
-        //                break;
-        //            case 4:
-        //                Opcion = 'N';
-        //                break;
-        //        }
-        //    }
-        //}
 
         static void registrar()
         {
@@ -167,7 +125,7 @@ namespace Presentacion
                 {
                     Console.SetCursorPosition(35, 25); Console.Write("Ingresa los datos válidos");
                 }
-            } 
+            }
         }
 
         static void MostrarRegistro()
