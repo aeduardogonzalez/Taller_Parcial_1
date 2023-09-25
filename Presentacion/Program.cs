@@ -134,7 +134,7 @@ namespace Presentacion
             try
             {
 
-                Console.SetCursorPosition(20, 15); Console.WriteLine("ID LIQUIDACION  ID PACIENTE        NOMBRE PACIENTE               TIPO AFILIACION     SALARIO PACIENTE   VALOR SERVICIO    CUOTA MODERADORA ");
+                Console.SetCursorPosition(15, 15); Console.WriteLine("ID LIQUIDACION  ID PACIENTE        NOMBRE PACIENTE               TIPO AFILIACION     SALARIO PACIENTE   VALOR SERVICIO    CUOTA MODERADORA ");
 
 
                 var service = new BLL.LiquidacionService();
@@ -147,13 +147,13 @@ namespace Presentacion
                 }
                 foreach (var item in liquidacionList)
                 {
-                    Console.SetCursorPosition(20, 17); Console.WriteLine(item.IDLiquidacion);
-                    Console.SetCursorPosition(36, 17); Console.WriteLine(item.IDPaciente);
-                    Console.SetCursorPosition(55, 17); Console.WriteLine(item.NombrePaciente);
-                    Console.SetCursorPosition(85, 17); Console.WriteLine(item.TipoAfiliacion);
-                    Console.SetCursorPosition(105, 17); Console.WriteLine(item.SalarioPaciente);
-                    Console.SetCursorPosition(130, 17); Console.WriteLine(item.ValorServicio);
-                    Console.SetCursorPosition(148, 17); Console.WriteLine(item.ValorLiquidado);
+                    Console.SetCursorPosition(15, 17); Console.WriteLine(item.IDLiquidacion);
+                    Console.SetCursorPosition(31, 17); Console.WriteLine(item.IDPaciente);
+                    Console.SetCursorPosition(50, 17); Console.WriteLine(item.NombrePaciente);
+                    Console.SetCursorPosition(80, 17); Console.WriteLine(item.TipoAfiliacion);
+                    Console.SetCursorPosition(100, 17); Console.WriteLine(item.SalarioPaciente);
+                    Console.SetCursorPosition(119, 17); Console.WriteLine(item.ValorServicio);
+                    Console.SetCursorPosition(138, 17); Console.WriteLine(item.ValorLiquidado);
                 }
                 Console.SetCursorPosition(41, 30); Console.WriteLine("Presione cualquier tecla para continuar.");
                 Console.SetCursorPosition(41, 31); Console.ReadKey();
