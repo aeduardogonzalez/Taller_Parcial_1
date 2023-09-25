@@ -18,7 +18,7 @@ namespace Presentacion
             Console.WindowWidth = Console.LargestWindowWidth;
             Console.BufferHeight = Console.LargestWindowHeight;
             Console.BufferWidth = Console.LargestWindowWidth;
-            
+
             Program programa = new Program();
             programa.menuPrincipal();
         }
