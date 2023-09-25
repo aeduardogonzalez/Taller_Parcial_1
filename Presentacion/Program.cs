@@ -152,8 +152,8 @@ namespace Presentacion
                     Console.SetCursorPosition(55, 17); Console.WriteLine(item.NombrePaciente);
                     Console.SetCursorPosition(85, 17); Console.WriteLine(item.TipoAfiliacion);
                     Console.SetCursorPosition(105, 17); Console.WriteLine(item.SalarioPaciente);
-                    Console.SetCursorPosition(124, 17); Console.WriteLine(item.ValorServicio);
-                    Console.SetCursorPosition(142, 17); Console.WriteLine(item.ValorLiquidado);
+                    Console.SetCursorPosition(130, 17); Console.WriteLine(item.ValorServicio);
+                    Console.SetCursorPosition(148, 17); Console.WriteLine(item.ValorLiquidado);
                 }
                 Console.SetCursorPosition(41, 30); Console.WriteLine("Presione cualquier tecla para continuar.");
                 Console.SetCursorPosition(41, 31); Console.ReadKey();
