@@ -77,7 +77,7 @@ namespace Entity
 
         public override string ToString()
         {
-            return $"{IDLiquidacion};{IDPaciente};{TipoAfiliacion};{TipoAfiliacion};{SalarioPaciente};{ValorServicio};" +
+            return $"{IDLiquidacion};{IDPaciente};{NombrePaciente};{TipoAfiliacion};{SalarioPaciente};{ValorServicio};" +
                 $"{ValorLiquidado}";
         }
 
