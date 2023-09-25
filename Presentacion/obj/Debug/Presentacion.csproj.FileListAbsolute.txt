@@ -1,0 +1,14 @@
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\Presentacion\bin\Debug\BLL.dll
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\Presentacion\bin\Debug\Entity.dll
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\Presentacion\bin\Debug\DAL.dll
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\Presentacion\bin\Debug\BLL.pdb
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\Presentacion\bin\Debug\Entity.pdb
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\Presentacion\bin\Debug\DAL.pdb
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\Presentacion\obj\Debug\Presentacion.pdb

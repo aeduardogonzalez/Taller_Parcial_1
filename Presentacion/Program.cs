@@ -6,6 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.SqlServer.Server;
 
 namespace Presentacion
 {
@@ -21,15 +22,13 @@ namespace Presentacion
     //        LiquidacionService liquidadoService = new BLL.LiquidacionService();
     //        menuPrincipal();
 
-
     //    }
-
 
     //    static void menuPrincipal()
     //    {
     //        int OP;
     //        char Opcion = 'S';
-    //        Console.ForegroundColor = ConsoleColor.Black;
+    //        Console.ForegroundColor = ConsoleColor.Blue;
     //        Console.SetCursorPosition(40, 6); Console.WriteLine("IPS MAS SALUD Y VIDA");
     //        Console.SetCursorPosition(35, 7); Console.WriteLine("Andres Gonzalez y Juan Carmona");
     //        Console.SetCursorPosition(48, 10); Console.WriteLine("MENU");
@@ -63,7 +62,7 @@ namespace Presentacion
     //                    break;
     //                case 3:
     //                    Console.Clear();
-    //                    //EliminarRegistro();
+    //                    EliminarRegistro();
     //                    Console.Clear();
     //                    break;
     //                case 4:
@@ -73,7 +72,7 @@ namespace Presentacion
     //        }
     //    }
 
-    //    static void registrar()
+    //    public static void registrar()
     //    {
     //        char OP = 'S';
     //        while (OP == 'S')
@@ -81,7 +80,6 @@ namespace Presentacion
     //            try
     //            {
     //                titulos();
-
     //                Console.SetCursorPosition(35, 11); Console.WriteLine("ID de liquidacion        : ");
     //                Console.SetCursorPosition(35, 12); Console.WriteLine("ID del paciente          : ");
     //                Console.SetCursorPosition(35, 13); Console.WriteLine("Nombre del Paciente      : ");
@@ -99,6 +97,7 @@ namespace Presentacion
     //                {
     //                    Console.SetCursorPosition(35, 20); Console.WriteLine("Digite S: Subsidiado C: Contributivo");
     //                    Console.SetCursorPosition(62, 14); liquidado.TipoAfiliacion = Char.Parse(Console.ReadLine().ToUpper());
+    //                    Console.SetCursorPosition(35, 20); Console.WriteLine("                                     ");
     //                } while ((liquidado.TipoAfiliacion != 'S') && (liquidado.TipoAfiliacion != 'C'));
 
     //                do
@@ -127,10 +126,11 @@ namespace Presentacion
     //            {
     //                Console.SetCursorPosition(35, 25); Console.Write("Ingresa los datos válidos");
     //            }
+
     //        }
     //    }
 
-    //    static void MostrarRegistro()
+    //    public static void MostrarRegistro()
     //    {
     //        titulos();
     //        try
@@ -167,26 +167,25 @@ namespace Presentacion
     //        }
     //    }
 
-    //    private void EliminarRegistro()
+    //    public static void EliminarRegistro()
     //    {
     //        Console.Clear();
     //        titulos();
-    //        Console.SetCursorPosition(35, 11); Console.Write("Ingrese el ID del Paciente que desea eliminar: ");
-    //        Console.SetCursorPosition(89, 11); string idAEliminar = Console.ReadLine();
+    //        Console.SetCursorPosition(20, 11); Console.Write("Por favor escriba el # de identificacion del paciente que desea eliminar del archivo: ");
+    //        Console.SetCursorPosition(108, 11); string idAEliminar = Console.ReadLine();
 
-    //        string mensaje = Service.EliminarRegistro(idAEliminar);
     //        var service = new BLL.LiquidacionService();
-    //        var liquidacionList = service.();
+    //        var mensaje = service.EliminarRegistro(idAEliminar);
 
-    //        Console.SetCursorPosition(35, 13); Console.WriteLine(mensaje);
+    //        Console.SetCursorPosition(30, 13); Console.WriteLine(mensaje);
     //        Console.SetCursorPosition(30, 15); Console.WriteLine("Presione Enter para continuar.");
     //        Console.SetCursorPosition(50, 15); Console.ReadLine();
     //    }
 
-    //    static void titulos()
+    //    public static void titulos()
     //    {
     //        Console.SetCursorPosition(40, 6); Console.WriteLine("IPS MAS SALUD Y VIDA");
     //        Console.SetCursorPosition(35, 7); Console.WriteLine("Andres Gonzalez y Juan Carmona");
     //    }
-    }
+    //}
 }

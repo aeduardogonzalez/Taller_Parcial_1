@@ -1,0 +1,11 @@
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\BLL\bin\Debug\BLL.dll
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\BLL\bin\Debug\BLL.pdb
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\BLL\bin\Debug\DAL.dll
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\BLL\bin\Debug\Entity.dll
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\BLL\bin\Debug\DAL.pdb
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\BLL\bin\Debug\Entity.pdb
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\BLL\obj\Debug\BLL.dll
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\BLL\obj\Debug\BLL.pdb

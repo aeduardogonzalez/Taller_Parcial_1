@@ -11,55 +11,66 @@ namespace BLL
 {
     public class LiquidacionService
     {
-    //    private LiquidacionRepository liquidacionRepository = null;
-    //    private List<Liquidacion> liquidacionList = null;
+        private LiquidacionRepository liquidacionRepository = null;
+        private List<Liquidacion> liquidacionList = null;
 
-    //    public LiquidacionService()
-    //    {
-    //        liquidacionRepository = new LiquidacionRepository();
-    //        liquidacionList = liquidacionRepository.ConsultarTodos();
+        public LiquidacionService()
+        {
+            liquidacionRepository = new LiquidacionRepository();
+            liquidacionList = liquidacionRepository.ConsultarTodos();
 
-    //    }
+        }
 
-    //    public String Guardar(Liquidacion liquidacion)
-    //    {
-    //        if (liquidacion == null)
-    //        {
-    //            return $"No se pueden agregar espacios nulos";
-    //        }
-    //        return (liquidacionRepository.Guardar(liquidacion));
-    //    }
+        public string Guardar(Liquidacion liquidacion)
+        {
+            if (liquidacion == null)
+            {
+                return $"No se pueden agregar espacios nulos";
+            }
+            return (liquidacionRepository.Guardar(liquidacion));
+        }
 
-    //    public List<Liquidacion> ConsultarTodos()
-    //    {
-    //        return liquidacionList;
-    //    }
+        public List<Liquidacion> ConsultarTodos()
+        {
+            return liquidacionList;
+        }
 
-    //    public string EliminarRegistro(string Eliminar_ID)
-    //    {
-    //        try
-    //        {
-    //            var eliminarRegistro = liquidacionList.FirstOrDefault(p => p.IDPaciente == Eliminar_ID);
+        public string EliminarRegistro(string Eliminar_ID)
+        {
+            try
+            {
+                var eliminarRegistro = liquidacionList.FirstOrDefault(p => p.IDPaciente == Eliminar_ID);
 
-    //            if (eliminarRegistro != null)
-    //            {
-    //                liquidacionList.Remove(eliminarRegistro);
-    //                var liquidacion = new DAL.LiquidacionRepository();
-    //                var LiquidacionList = liquidacion.Guardar(liquidacionList);
-    //                return "Registro de paciente eliminado correctamente";
-    //            }
-    //            else
-    //            {
-    //                return "No se encontró un registro con el ID proporcionado.";
-    //            }
-    //        }
-    //        catch (IOException)
-    //        {
-    //            return "Ocurrió un error al intentar eliminar el registro.";
-    //        }
+                if (eliminarRegistro != null)
+                {
+                    liquidacionList.Remove(eliminarRegistro);
+                    var liquidacion = new DAL.LiquidacionRepository();
+                    var LiquidacionList = liquidacion.Guardar(liquidacionList);
+                    return "Registro de paciente eliminado correctamente";
+                }
+                else
+                {
+                    return "No se encontró un registro con el ID proporcionado.";
+                }
+            }
+            catch (IOException)
+            {
+                return "Ocurrió un error al intentar eliminar el registro.";
+            }
+        }
 
+        private Liquidacion ObtenerPeciente(string id)
+        {
+            foreach (var item in liquidacionList)
+            {
+                if (id == item.IDPaciente)
+                {
+                    return item;
+                }
+            }
+            return null;
 
-    //    }
+        }
 
-    //}
+    }
 }

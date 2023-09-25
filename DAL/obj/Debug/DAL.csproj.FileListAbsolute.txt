@@ -1,0 +1,9 @@
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\DAL\bin\Debug\DAL.dll
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\DAL\bin\Debug\DAL.pdb
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\DAL\bin\Debug\Entity.dll
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\DAL\bin\Debug\Entity.pdb
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\DAL\obj\Debug\DAL.dll
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\DAL\obj\Debug\DAL.pdb

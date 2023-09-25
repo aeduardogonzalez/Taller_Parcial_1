@@ -75,5 +75,11 @@ namespace Entity
             return ValorLiquidado;
         }
 
+        public override string ToString()
+        {
+            return $"{IDLiquidacion};{IDPaciente};{TipoAfiliacion};{TipoAfiliacion};{SalarioPaciente};{ValorServicio};" +
+                $"{ValorLiquidado}";
+        }
+
     }
 }

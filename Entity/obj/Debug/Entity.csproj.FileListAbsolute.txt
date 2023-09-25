@@ -1,0 +1,6 @@
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\Entity\bin\Debug\Entity.dll
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\Entity\bin\Debug\Entity.pdb
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\Entity\obj\Debug\Entity.csproj.AssemblyReference.cache
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\Entity\obj\Debug\Entity.dll
+C:\Users\ANDRES GONZALEZ\OneDrive\Escritorio\Tercer Semestre\Programacion 3\Andres\Taller Parcial 1\Entity\obj\Debug\Entity.pdb
