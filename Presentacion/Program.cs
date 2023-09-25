@@ -153,7 +153,7 @@ namespace Presentacion
                     Console.SetCursorPosition(80, 17); Console.WriteLine(item.TipoAfiliacion);
                     Console.SetCursorPosition(100, 17); Console.WriteLine(item.SalarioPaciente);
                     Console.SetCursorPosition(119, 17); Console.WriteLine(item.ValorServicio);
-                    Console.SetCursorPosition(138, 17); Console.WriteLine(item.ValorLiquidado);
+                    Console.SetCursorPosition(137, 17); Console.WriteLine(item.ValorLiquidado);
                 }
                 Console.SetCursorPosition(41, 30); Console.WriteLine("Presione cualquier tecla para continuar.");
                 Console.SetCursorPosition(41, 31); Console.ReadKey();
